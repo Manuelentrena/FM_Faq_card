@@ -1,0 +1,25 @@
+@import "../settings/_layout.css";
+
+.box {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 55%;
+  left: var(--spacing-l);
+  z-index: 1;
+}
+
+.box img {
+  width: 250px;
+}
+
+@media screen and (max-width: 1440px) {
+  .box {
+    left: var(--spacing);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    display: none;
+  }
+}

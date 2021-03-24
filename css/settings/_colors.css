@@ -1,0 +1,32 @@
+:root {
+  /* COLORS */
+  --very-dark: #1d1e35;
+  --soft-red: #f47c57;
+  --soft-violet: #af67e9;
+  --soft-blue: #6565e7;
+  --very-dark-grayish-blue: #4a4b5e;
+  --dark-grayish-blue: #787887;
+  --light-grayish-blue: #e7e7e9;
+
+  /* ---APLICATIONS--- */
+
+  /* TITLE */
+
+  --title: var(--very-dark);
+
+  /* QUESTIONS */
+  --text-hover: var(--soft-red);
+  --text-primary: var(--very-dark);
+  --text-selected: var(--very-dark); /* ES TAMAÑO DE WEIGHT */
+
+  /* TEXT */
+  --text-secundary: var(--dark-grayish-blue);
+
+  /* DIVIDERS */
+
+  --dividers: var(--light-grayish-blue);
+
+  /* BACKGROUND */
+  --background-gradient1: var(--soft-violet);
+  --background-gradient2: var(--soft-blue);
+}

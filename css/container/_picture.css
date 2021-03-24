@@ -1,0 +1,18 @@
+@import "../settings/_layout.css";
+
+.picture {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .picture {
+    width: 100%;
+    min-height: var(--spacing-sl);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .picture {
+    min-height: var(--spacing-m);
+  }
+}

@@ -1,0 +1,29 @@
+.pattern {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: -7rem;
+}
+
+.pattern img {
+  width: 1300px;
+}
+
+@media screen and (max-width: 768px) {
+  .pattern {
+    top: 7rem;
+    left: 50%;
+  }
+  .pattern img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .pattern {
+    top: 5rem;
+  }
+  .pattern img {
+    width: 200px;
+  }
+}

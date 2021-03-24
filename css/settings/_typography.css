@@ -1,0 +1,27 @@
+:root {
+  /* SCALE */
+  --fs-base: 62.5%;
+
+  --fs-12: 2rem;
+  --fs-30: 5rem;
+  --fs-10: 1.7rem;
+
+  --bold: 700;
+  --regular: 400;
+
+  --line-height: 1.5;
+
+  /* APLICATIONS */
+
+  /* desktop */
+
+  --fs-title: var(--fs-30);
+  --fs-question: var(--fs-12);
+  --fs-response: var(--fs-10);
+
+  /* mobil */
+
+  --fs-titleMobil: var(--fs-30);
+  --fs-questionMobil: var(--fs-12);
+  --fs-responseMobil: var(--fs-10);
+}

@@ -1,0 +1,49 @@
+:root {
+  /* margin and paddding */
+
+  /* Container Primary */
+  --m-top-l: auto;
+  --m-bottom-l: auto;
+  --m-left-l: 20rem;
+  --m-right-l: 20rem;
+
+  --m-top-m: auto;
+  --m-bottom-m: auto;
+  --m-left-m: 5rem;
+  --m-right-m: 5rem;
+
+  --m-top-s: 2.5rem;
+  --m-bottom-s: 2.5rem;
+  --m-left-s: 2.5rem;
+  --m-right-s: 2.5rem;
+
+  /* Padding */
+
+  --p-top-l: 5rem;
+  --p-bottom-l: 5rem;
+  --p-left-l: 5rem;
+  --p-right-l: 5rem;
+
+  --p-top-m: 5rem;
+  --p-bottom-m: 5rem;
+  --p-left-m: 5rem;
+  --p-right-m: 5rem;
+
+  --p-top-s: 2.5rem;
+  --p-bottom-s: 2.5rem;
+  --p-left-s: 2.5rem;
+  --p-right-s: 2.5rem;
+
+  /* spacing */
+
+  --spacing-s: 2.5rem;
+  --spacing: 5rem;
+  --spacing-m: 10rem;
+  --spacing-sl: 15rem;
+  --spacing-l: 20rem;
+  --spacing-vl: 40rem;
+
+  /* media queries */
+  --mobile: 768px;
+  --desktop: 1440px;
+}

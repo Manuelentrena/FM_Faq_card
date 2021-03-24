@@ -1,0 +1,17 @@
+@import "../settings/_layout.css";
+
+.\#container {
+  margin: var(--m-top-l) var(--m-right-l) var(--m-bottom-l) var(--m-left-l);
+}
+
+@media screen and (max-width: 1440px) {
+  .\#container {
+    margin: var(--m-top-m) var(--m-right-m) var(--m-bottom-m) var(--m-left-m);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .\#container {
+    margin: var(--spacing-l) var(--m-right-s) var(--m-bottom-s) var(--m-left-s);
+  }
+}

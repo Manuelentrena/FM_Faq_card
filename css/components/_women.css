@@ -1,0 +1,26 @@
+.women {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 22rem;
+}
+
+.women img {
+  width: 700px;
+}
+
+@media screen and (max-width: 768px) {
+  .women {
+    top: -1rem;
+    left: 46%;
+  }
+  .women img {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .women img {
+    width: 230px;
+  }
+}

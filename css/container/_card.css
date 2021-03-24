@@ -1,0 +1,33 @@
+@import "../settings/_layout.css";
+
+.card {
+  position: relative;
+  background-color: aliceblue;
+  display: flex;
+  border-radius: 3rem;
+  box-shadow: 5px 15px 15px 0px rgba(0, 0, 0, 0.25);
+  padding: var(--p-top-s) var(--p-right-l) var(--p-bottom-s) var(--p-left-l);
+  overflow: hidden;
+}
+
+.body {
+  width: 50%;
+}
+
+@media screen and (max-width: 1440px) {
+  .card {
+    padding: var(--p-top-s) var(--p-right-s) var(--p-bottom-s) var(--p-left-s);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    padding: var(--p-top-s) var(--p-right-s) var(--p-bottom-s) var(--p-left-s);
+    overflow: visible;
+  }
+
+  .body {
+    width: 100%;
+  }
+}
